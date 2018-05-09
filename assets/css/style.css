@@ -1,0 +1,38 @@
+.container{
+  background-color: #0f6479;	
+  width:100%;
+  height:900px;
+  text-align: center;	
+  font-size: 30px;
+  font-style: rgb(19, 17, 17);
+}
+
+body {
+   background: rgb(87, 19, 19);
+}
+  
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color: rgba(101,155,242,.2);
+
+}
+
+#gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+
+#pressKeyTryAgain,
+#gameover-image, 
+#youwin-image, {display: none;}
+.gameplay-column {
+    padding-top: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
+}
